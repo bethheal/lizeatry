@@ -383,13 +383,30 @@
         border-radius: 10px;
         border-color: #b9b9b9;
     }
-    #button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+   
+    .menu-button{
+        padding: 20px 30px;
+        right: 50px;
+        
     }
+
+
     #review-section{
         width: 100vw;
         height: 100vh;
         justify-content: center;
     }
+
+    /* footer section */
+#footer-section {
+    width: 100vw;
+    height: 60vh;
+    background-color: #222222;
+    color: #EFEFEF;
+    display: flex;
+  }
+  
+  #copyright {
+    display: flex;
+    flex-direction: column;
+  }
