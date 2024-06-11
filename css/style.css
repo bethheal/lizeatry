@@ -404,9 +404,35 @@
     background-color: #222222;
     color: #EFEFEF;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   }
+
+
   
   #copyright {
     display: flex;
     flex-direction: column;
   }
+ #footer-section .sub{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #footer-section a{
+    text-decoration: none;
+    color: #929092;
+    text-transform: capitalize;
+    font-size: 15px;
+ }
+
+ #footer-section a:hover{
+    color: #FFFFF1;
+ }
+
+ /* #email-signup{
+    display: flex;
+    flex-direction: column;
+ } */
+
